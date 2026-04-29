@@ -1,0 +1,30 @@
+{
+  "name": "Adam's Apps",
+  "identifier": "com.adamgrushan.source",
+  "sourceURL": "https://adamgrushan.github.io/altstore-classic-distribution-skill-test/source.json",
+  "apps": [
+    {
+      "name": "Checker",
+      "bundleIdentifier": "com.rileytestut.MarketplaceComparison",
+      "developerName": "Adam Grushan",
+      "subtitle": "",
+      "localizedDescription": "",
+      "iconURL": "",
+      "tintColor": "",
+      "category": "",
+      "screenshots": [],
+      "versions": [
+        {
+          "version": "1.0",
+          "buildVersion": "1",
+          "date": "2026-04-29",
+          "localizedDescription": "Initial release.",
+          "downloadURL": "https://adamgrushan.github.io/altstore-classic-distribution-skill-test/MarketplaceComparison.ipa",
+          "size": 2530386,
+          "minOSVersion": "26.0"
+        }
+      ]
+    }
+  ],
+  "news": []
+}
