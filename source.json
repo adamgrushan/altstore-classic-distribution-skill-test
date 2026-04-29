@@ -8,9 +8,9 @@
       "bundleIdentifier": "com.rileytestut.MarketplaceComparison",
       "developerName": "Adam Grushan",
       "subtitle": "",
-      "localizedDescription": "this is a test app",
+      "localizedDescription": "",
       "iconURL": "https://adamgrushan.github.io/altstore-classic-distribution-skill-test/app_icon.png",
-      "tintColor": "",
+      "tintColor": "1D8AE3",
       "category": "",
       "screenshots": [],
       "versions": [
