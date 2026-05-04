@@ -1,15 +1,17 @@
 {
-  "name": "Adams Apps",
-  "subtitle": "Testing my skill",
-  "description": "TESTING MY SKILL",
-  "tintColor": "F54F32",
+  "name": "Adam's Apps",
+  "headerURL": "https://adamgrushan.github.io/altstore-classic-distribution-skill-test/app_icon.png",
   "apps": [
     {
       "name": "Checker",
       "bundleIdentifier": "com.rileytestut.MarketplaceComparison",
       "developerName": "Adam Grushan",
-      "localizedDescription": "Test marketplace app",
+      "localizedDescription": "Testing my sources",
       "iconURL": "https://adamgrushan.github.io/altstore-classic-distribution-skill-test/app_icon.png",
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
       "versions": [
         {
           "version": "1.0",
@@ -19,13 +21,7 @@
           "size": 2530386,
           "minOSVersion": "26.0"
         }
-      ],
-      "appPermissions": {
-        "entitlements": [
-          "get-task-allow"
-        ],
-        "privacy": {}
-      }
+      ]
     }
   ],
   "news": []
