@@ -1,27 +1,28 @@
 {
-  "name": "Adam's Apps",
-  "headerURL": "https://adamgrushan.github.io/altstore-classic-distribution-skill-test/app_icon.png",
+  "name": "Adam's Source",
   "apps": [
     {
       "name": "Checker",
       "bundleIdentifier": "com.rileytestut.MarketplaceComparison",
       "developerName": "Adam Grushan",
-      "localizedDescription": "Testing my sources",
-      "iconURL": "https://adamgrushan.github.io/altstore-classic-distribution-skill-test/app_icon.png",
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {}
-      },
+      "localizedDescription": "Adam's TESTTTTTTT",
       "versions": [
         {
           "version": "1.0",
           "buildVersion": "1",
           "date": "2026-05-04",
-          "downloadURL": "https://adamgrushan.github.io/altstore-classic-distribution-skill-test/MarketplaceComparison.ipa",
           "size": 2530386,
-          "minOSVersion": "26.0"
+          "minOSVersion": "26.0",
+          "downloadURL": "https://adamgrushan.github.io/altstore-classic-distribution-skill-test/MarketplaceComparison.ipa"
         }
-      ]
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "get-task-allow"
+        ],
+        "privacy": {}
+      },
+      "iconURL": "https://adamgrushan.github.io/altstore-classic-distribution-skill-test/app_icon.png"
     }
   ],
   "news": []
