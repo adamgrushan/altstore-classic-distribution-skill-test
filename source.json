@@ -18,6 +18,15 @@
       ],
       "versions": [
         {
+          "version": "1.1",
+          "buildVersion": "2",
+          "date": "2026-05-08",
+          "localizedDescription": "v1.1 not 1.0",
+          "downloadURL": "https://adamgrushan.github.io/altstore-classic-distribution-skill-test/MarketplaceComparison-1.1.ipa",
+          "size": 2530386,
+          "minOSVersion": "26.0"
+        },
+        {
           "version": "1.0",
           "buildVersion": "1",
           "date": "2026-05-08",
