@@ -32,5 +32,12 @@
       }
     }
   ],
-  "news": []
+  "news": [
+    {
+      "title": "Checker v1.0 is here!",
+      "identifier": "checker-v1-0-launch",
+      "caption": "The first release of Checker is now available to download.",
+      "date": "2026-05-08"
+    }
+  ]
 }
