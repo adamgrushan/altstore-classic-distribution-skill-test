@@ -1,29 +1,36 @@
 {
-  "name": "Adam's SOURCE!",
+  "name": "Adam's Awesome Source",
+  "subtitle": "Adam is awesome",
+  "description": "LFG",
+  "website": "https://adamgrushan.com",
+  "tintColor": "#E6E6FA",
   "apps": [
     {
       "name": "Checker",
       "bundleIdentifier": "com.rileytestut.MarketplaceComparison",
       "developerName": "Adam Grushan",
-      "localizedDescription": "A test that my skill is working",
+      "subtitle": "Shane Gill is a fashionista",
+      "localizedDescription": "AltStore FOREVER AND EVER AND EVER",
       "iconURL": "https://adamgrushan.github.io/altstore-classic-distribution-skill-test/icon.png",
+      "category": "social",
+      "screenshots": [
+        "https://adamgrushan.github.io/altstore-classic-distribution-skill-test/IMG_4900.png"
+      ],
       "versions": [
         {
           "version": "1.0",
           "buildVersion": "1",
-          "date": "2026-05-07",
-          "localizedDescription": "Initial release.",
+          "date": "2026-05-08",
           "downloadURL": "https://adamgrushan.github.io/altstore-classic-distribution-skill-test/MarketplaceComparison-1.0.ipa",
           "size": 2530386,
           "minOSVersion": "26.0"
         }
       ],
       "appPermissions": {
-        "entitlements": [
-          "get-task-allow"
-        ],
+        "entitlements": [],
         "privacy": {}
       }
     }
-  ]
+  ],
+  "news": []
 }
