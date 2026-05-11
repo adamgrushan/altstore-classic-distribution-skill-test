@@ -1,52 +1,28 @@
 {
-  "name": "Adam's Awesome Source",
-  "subtitle": "Adam is awesome",
-  "description": "LFG",
-  "website": "https://adamgrushan.com",
-  "tintColor": "#E6E6FA",
+  "name": "Adam's Apps",
   "apps": [
     {
       "name": "Checker",
       "bundleIdentifier": "com.rileytestut.MarketplaceComparison",
       "developerName": "Adam Grushan",
-      "subtitle": "Shane Gill is a fashionista",
-      "localizedDescription": "AltStore FOREVER AND EVER AND EVER",
-      "iconURL": "https://adamgrushan.github.io/altstore-classic-distribution-skill-test/icon.png",
-      "category": "social",
-      "screenshots": [
-        "https://adamgrushan.github.io/altstore-classic-distribution-skill-test/IMG_4900.png"
-      ],
+      "localizedDescription": "test",
+      "iconURL": "https://github.com/adamgrushan/altstore-classic-distribution-skill-test/releases/download/v1.0/app_icon.png",
       "versions": [
-        {
-          "version": "1.1",
-          "buildVersion": "2",
-          "date": "2026-05-08",
-          "localizedDescription": "v1.1 not 1.0",
-          "downloadURL": "https://adamgrushan.github.io/altstore-classic-distribution-skill-test/MarketplaceComparison-1.1.ipa",
-          "size": 2530386,
-          "minOSVersion": "26.0"
-        },
         {
           "version": "1.0",
           "buildVersion": "1",
-          "date": "2026-05-08",
-          "downloadURL": "https://adamgrushan.github.io/altstore-classic-distribution-skill-test/MarketplaceComparison-1.0.ipa",
+          "date": "2026-05-11",
+          "downloadURL": "https://github.com/adamgrushan/altstore-classic-distribution-skill-test/releases/download/v1.0/MarketplaceComparison-1.1.ipa",
           "size": 2530386,
           "minOSVersion": "26.0"
         }
       ],
       "appPermissions": {
-        "entitlements": [],
+        "entitlements": [
+          "keychain-access-groups"
+        ],
         "privacy": {}
       }
-    }
-  ],
-  "news": [
-    {
-      "title": "Checker v1.0 is here!",
-      "identifier": "checker-v1-0-launch",
-      "caption": "The first release of Checker is now available to download.",
-      "date": "2026-05-08"
     }
   ]
 }
