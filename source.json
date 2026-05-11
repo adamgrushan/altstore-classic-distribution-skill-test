@@ -6,14 +6,11 @@
   "headerURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/OceanHeader.png",
   "website": "https://example.com",
   "tintColor": "#4185A9",
-  "featuredApps": [
-    "com.example.myapp"
-  ],
   "apps": [
     {
       "name": "Checker",
       "bundleIdentifier": "com.rileytestut.MarketplaceComparison",
-      "developerName": "Example Developer",
+      "developerName": "Adam Grushan",
       "subtitle": "An awesome app.",
       "localizedDescription": "This is an awesome app only available on AltStore.",
       "iconURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/FishApp.png",
@@ -32,7 +29,7 @@
           "version": "1.0",
           "date": "2026-05-11",
           "size": 2530386,
-          "downloadURL": "https://example.com/myapp_v1.0.ipa",
+          "downloadURL": "https://adamgrushan.github.io/altstore-classic-distribution-skill-test/MarketplaceComparison-1.1.ipa",
           "localizedDescription": "Initial release.",
           "buildVersion": "1",
           "minOSVersion": "26.0"
@@ -40,37 +37,11 @@
       ],
       "appPermissions": {
         "entitlements": [
-          "com.apple.security.application-groups",
-          "com.apple.developer.siri"
+          "keychain-access-groups"
         ],
-        "privacy": {
-          "NSPhotoLibraryUsageDescription": "App saves photos to your Photo Library.",
-          "NSCameraUsageDescription": "App uses camera to take photos.",
-          "NSMicrophoneUsageDescription": "App uses microphone to record video."
-        }
+        "privacy": {}
       }
     }
   ],
-  "news": [
-    {
-      "title": "New Feature Announcement",
-      "identifier": "new_feature",
-      "caption": "Introducing a new feature in AltStore!",
-      "date": "2023-03-15",
-      "tintColor": "#5CA399",
-      "imageURL": "https://example.com/new_feature_image.png",
-      "notify": true,
-      "url": "https://example.com/new_feature_details"
-    },
-    {
-      "title": "App Update Available",
-      "identifier": "app_update",
-      "caption": "An update is available for My Example App.",
-      "date": "2023-03-10T10:00:00-07:00",
-      "tintColor": "#3660A2",
-      "imageURL": "https://example.com/app_update_image.png",
-      "notify": false,
-      "appID": "com.example.myapp"
-    }
-  ]
+  "news": []
 }
