@@ -1,11 +1,11 @@
 {
-  "name": "Adam's Source",
+  "name": "Adam's SOurce",
   "patreonURL": "https://www.patreon.com/cw/rileyshane",
-  "subtitle": "Test on 5/18 in evening",
+  "subtitle": "test #999",
   "description": "Welcome to my source! Here you'll find all of my apps.",
   "iconURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/OctoSource.png",
   "headerURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/OceanHeader.png",
-  "website": "https://example.com",
+  "website": "https://adamgrushan.com",
   "tintColor": "#4185A9",
   "featuredApps": [
     "com.example.myapp",
@@ -34,7 +34,7 @@
           "version": "1.0",
           "date": "2026-05-18",
           "size": 2530386,
-          "downloadURL": "https://adamgrushan.github.io/altstore-classic-distribution-skill-test/MarketplaceComparison-1.1.ipa",
+          "downloadURL": "https://example.com/myapp_v1.0.ipa",
           "localizedDescription": "Initial release.",
           "buildVersion": "1",
           "minOSVersion": "26.0"
