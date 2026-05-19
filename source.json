@@ -1,11 +1,11 @@
 {
-  "name": "Adam's SOurce",
-  "patreonURL": "https://www.patreon.com/cw/rileyshane",
-  "subtitle": "test #999",
+  "name": "Adam's Source",
+  "subtitle": "All my apps in one place.",
   "description": "Welcome to my source! Here you'll find all of my apps.",
   "iconURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/OctoSource.png",
   "headerURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/OceanHeader.png",
-  "website": "https://adamgrushan.com",
+  "website": "https://example.com",
+  "patreonURL": "https://www.patreon.com/cw/example",
   "tintColor": "#4185A9",
   "featuredApps": [
     "com.example.myapp",
@@ -32,7 +32,7 @@
       "versions": [
         {
           "version": "1.0",
-          "date": "2026-05-18",
+          "date": "2026-05-19",
           "size": 2530386,
           "downloadURL": "https://example.com/myapp_v1.0.ipa",
           "localizedDescription": "Initial release.",
