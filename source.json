@@ -1,55 +1,75 @@
 {
-  "name": "Adam's SOurce",
-  "subtitle": "StreamCenter and more.",
-  "description": "Welcome to my source! Here you'll find StreamCenter and other apps I've created.",
-  "iconURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/OctoSource.png",
-  "headerURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/OceanHeader.png",
-  "website": "https://example.com",
-  "patreonURL": "https://www.patreon.com/cw/example",
-  "tintColor": "#5B6FDD",
-  "featuredApps": [
-    "io.altstore.streamcenter"
-  ],
-  "apps": [
-    {
-      "name": "StreamCenter",
-      "bundleIdentifier": "io.altstore.streamcenter",
-      "developerName": "Adam Grushan",
-      "subtitle": "Stream your favorite content.",
-      "localizedDescription": "StreamCenter brings you all your streaming services in one convenient place. Browse and manage your favorite shows and movies from multiple platforms.",
-      "iconURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/FishApp.png",
-      "tintColor": "#5B6FDD",
-      "category": "utilities",
-      "screenshots": [
-        "https://example.com/myapp_portrait_screenshot1.png",
-        "https://example.com/myapp_portrait_screenshot2.png",
+    "name": "Adam's Source",
+    "subtitle": "All my apps in one place.",
+    "description": "Welcome to my source! Here you'll find all of my apps.",
+    "iconURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/OctoSource.png",
+    "headerURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/OceanHeader.png",
+    "website": "https://example.com",
+    "patreonURL": "https://www.patreon.com/cw/example",
+    "tintColor": "#4185A9",
+    "featuredApps": [
+        "com.rileytestut.MarketplaceComparison"
+    ],
+    "apps": [
         {
-          "imageURL": "https://example.com/myapp_landscape_screenshot.png",
-          "width": 2556,
-          "height": 1179
+            "name": "Checker",
+            "bundleIdentifier": "com.rileytestut.MarketplaceComparison",
+            "developerName": "Yvette Testut",
+            "subtitle": "An awesome app.",
+            "localizedDescription": "This is an awesome app only available on AltStore.",
+            "iconURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/FishApp.png",
+            "tintColor": "#5CA399",
+            "screenshots": [
+                "https://example.com/myapp_portrait_screenshot1.png",
+                "https://example.com/myapp_portrait_screenshot2.png",
+                {
+                    "imageURL": "https://example.com/myapp_landscape_screenshot.png",
+                    "width": 2556,
+                    "height": 1179
+                }
+            ],
+            "versions": [
+                {
+                    "version": "1.0",
+                    "date": "2026-09-09",
+                    "size": 2530386,
+                    "downloadURL": "https://example.com/myapp_v1.0.ipa",
+                    "localizedDescription": "Initial release.",
+                    "buildVersion": "1",
+                    "minOSVersion": "26.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [
+                    "application-identifier",
+                    "com.apple.developer.team-identifier",
+                    "get-task-allow",
+                    "keychain-access-groups"
+                ],
+                "privacy": {}
+            }
         }
-      ],
-      "versions": [
+    ],
+    "news": [
         {
-          "version": "2.47",
-          "date": "2026-07-01",
-          "size": 660142,
-          "downloadURL": "https://adamgrushan.github.io/altstore-classic-distribution-skill-test/StreamCenter.ipa",
-          "localizedDescription": "Latest release of StreamCenter.",
-          "buildVersion": "247",
-          "minOSVersion": "17.0"
+            "title": "New Feature Announcement",
+            "identifier": "new_feature",
+            "caption": "Introducing a new feature in AltStore!",
+            "date": "2023-03-15",
+            "tintColor": "#5CA399",
+            "imageURL": "https://example.com/new_feature_image.png",
+            "notify": true,
+            "url": "https://example.com/new_feature_details"
+        },
+        {
+            "title": "App Update Available",
+            "identifier": "app_update",
+            "caption": "An update is available for My Example App.",
+            "date": "2023-03-10T10:00:00-07:00",
+            "tintColor": "#3660A2",
+            "imageURL": "https://example.com/app_update_image.png",
+            "notify": false,
+            "appID": "com.example.myapp"
         }
-      ],
-      "appPermissions": {
-        "entitlements": [
-          "application-identifier",
-          "keychain-access-groups",
-          "get-task-allow",
-          "com.apple.developer.team-identifier"
-        ],
-        "privacy": {}
-      }
-    }
-  ],
-  "news": []
+    ]
 }
